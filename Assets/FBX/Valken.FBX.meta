@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: 98d8bd1a8f162b34c8dedbaa1ffa76a8
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Box008
+    100002: Box009
+    100004: Box010
+    100006: Box011
+    100008: Box012
+    100010: Box013
+    100012: Box014
+    100014: Box015
+    100016: Cylinder003
+    100018: Cylinder004
+    100020: //RootNode
+    100022: Sphere001
+    100024: Sphere002
+    400000: Box008
+    400002: Box009
+    400004: Box010
+    400006: Box011
+    400008: Box012
+    400010: Box013
+    400012: Box014
+    400014: Box015
+    400016: Cylinder003
+    400018: Cylinder004
+    400020: //RootNode
+    400022: Sphere001
+    400024: Sphere002
+    2300000: Box008
+    2300002: Box009
+    2300004: Box010
+    2300006: Box011
+    2300008: Box012
+    2300010: Box013
+    2300012: Box014
+    2300014: Box015
+    2300016: Cylinder003
+    2300018: Cylinder004
+    2300020: //RootNode
+    2300022: Sphere001
+    2300024: Sphere002
+    3300000: Box008
+    3300002: Box009
+    3300004: Box010
+    3300006: Box011
+    3300008: Box012
+    3300010: Box013
+    3300012: Box014
+    3300014: Box015
+    3300016: Cylinder003
+    3300018: Cylinder004
+    3300020: //RootNode
+    3300022: Sphere001
+    3300024: Sphere002
+    4300000: Box001
+    4300002: Cylinder003
+    4300004: Box008
+    4300006: Box009
+    4300008: Box010
+    4300010: Cylinder004
+    4300012: Box011
+    4300014: Box012
+    4300016: Box013
+    4300018: Sphere001
+    4300020: Box014
+    4300022: Sphere002
+    4300024: Box015
+    7400000: Walk
+    7400002: Idle
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder003
+        weight: 1
+      - path: Cylinder003/Box008
+        weight: 1
+      - path: Cylinder003/Box008/Box009
+        weight: 1
+      - path: Cylinder003/Box008/Box009/Box010
+        weight: 1
+      - path: Cylinder004
+        weight: 1
+      - path: Cylinder004/Box011
+        weight: 1
+      - path: Cylinder004/Box011/Box012
+        weight: 1
+      - path: Cylinder004/Box011/Box012/Box013
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: Sphere001/Box014
+        weight: 1
+      - path: Sphere002
+        weight: 1
+      - path: Sphere002/Box015
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 3
+      lastFrame: 3.0999999
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder003
+        weight: 1
+      - path: Cylinder003/Box008
+        weight: 1
+      - path: Cylinder003/Box008/Box009
+        weight: 1
+      - path: Cylinder003/Box008/Box009/Box010
+        weight: 1
+      - path: Cylinder004
+        weight: 1
+      - path: Cylinder004/Box011
+        weight: 1
+      - path: Cylinder004/Box011/Box012
+        weight: 1
+      - path: Cylinder004/Box011/Box012/Box013
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: Sphere001/Box014
+        weight: 1
+      - path: Sphere002
+        weight: 1
+      - path: Sphere002/Box015
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
